@@ -1,0 +1,24 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">    
+    <title>Exercise 3</title>  
+    <script src="randominteger.js"></script>  
+</head>  
+<body>  
+  
+<h1>Random Integer Generator</h1>  
+  
+<p id="randomInteger"></p>  
+
+<script>  
+    document.addEventListener('DOMContentLoaded', function() {  
+       
+        let randomIntResult = randomInt();  
+         
+        document.getElementById('randomInteger').textContent = 'Generated Random Integer: ' + randomIntResult;  
+    });  
+</script>  
+  
+</body>  
+</html>
